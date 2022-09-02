@@ -1,25 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react"
+import Card from "./Card.js"
+import data from "./data.js"
+import Navbar from "./Navbar.js"
+import Footer from "./Footer"
+import LandingPage from "./LandingPage"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+export default function App() {
+    const cardInfo = data.map(element => {
+        return (
+        <Card 
+        key={element.id}
+        title={element.title}
+        location={element.location} 
+        googleMapsUrl={element.googleMapsUrl}
+        startDate={element.startDate}
+        endDate={element.endDate}
+        description={element.description}
+        imageUrl={element.imageUrl}
+        readMoreUrl={element.readMoreUrl}  
+        />
+        )
+        
+    })
+  return ( 
+      <div className="container">
+        <Navbar />
+        <LandingPage />
+        <div className="grid">
+        {cardInfo}
+        </div>
+         
+        <Footer /> 
+      </div>
+       
+    ) 
 }
-
-export default App;

@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+
+}
+
+html, 
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  display: flow-root;
+}
+
+nav,
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F55A5A;
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 14px;
+  height: 55px;
+  box-shadow: 4px 4px 8px black;
+  
+}
+
+nav {
+  margin-top: -20px;
+}
+
+.footer {
+  justify-content: space-around;
+  background-color: #918E9B;
+}
+
+.fa-earth-americas {
+  padding: 6px;
+  font-size: 24px;
+  margin: 0;
+}
+
+.nav--text {
+  margin: 0;
+}
+
+.card-container {
+  margin: 20px 40px;
+  display: grid;
+  grid-template: repeat(4, auto) / 130px; 
+  grid-template-areas: 
+      "image location"
+      "image title"
+      "image dates"
+      "image description"; 
+  grid-gap: 0 15px;
+  color: #2B283A;
+  border-bottom: #F5F5F5 1px solid;
+  padding-bottom: 20px;
+  max-width: 90%; 
+  
+}
+
+
+.card-container > * {
+  margin: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.main--image {
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+  object-fit: cover;
+  grid-area: image;
+  transition-property: width height;
+  transition-duration: .2s;
+}
+
+.main--image:hover {
+width: 130px;
+height: 173px;
+
+}
+
+.main--heading {
+  grid-area: title;
+  font-weight: 700;
+  font-size: 25px;
+  margin-bottom: 12px;
+}
+
+.location {
+  grid-area: location;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 10px; 
+}
+
+.fa-location-dot {
+  color: #F55A5A;
+  font-size: 10px;
+  margin-right: 4px;
+}
+
+a {
+  color: #918E9B;
+  text-decoration: none;
+  margin-left: 10px;
+  border-bottom: #918E9B solid .7px;
+}
+
+a:hover {
+  color:#F55A5A;
+  border-bottom: #F55A5A;
+}
+
+
+.main--date {
+  grid-area: dates;
+  font-weight: 700;
+  font-size: 10px;
+}
+
+.main--description {
+  grid-area: description;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 1.4em;
+  padding: 7px 0;
+}
+
+.main--location {
+  text-transform: uppercase;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+}
+
+.containerLanding {
+  margin-bottom: 40px;
+  height: 100vh;
+  background-color: #918E9B;
+  background-image: url("./images/guillaume-galtier-3YrppYQPoCI-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:#FFFFFF;
+  text-shadow: 1px 1px 10px grey;
+  box-shadow: 2px 2px 8px grey;
+}
+
+.containerLanding > h1 {
+  font-weight: 500;
+  margin: 0;
+  font-size: 70px;
+  position: absolute;
+  top: 320px;
+  left: 140px;
+}
+
+.containerLanding > h2 {
+  font-weight: 400;
+  font-size: 30px;
+  padding: 40px;
+  position: absolute;
+  bottom: 140px;
+  right: 140px;
+}
+
