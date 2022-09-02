@@ -1,5 +1,4 @@
 import React from "react"
-import arrow from "./images/right-drawn-arrow.png"
 
 
 export default function LandingPage() {

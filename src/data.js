@@ -1,5 +1,4 @@
 
-import React from "react"
 import sydney from "./images/dan-freeman-7Zb7kUyQg1E-unsplash.jpg"
 import tenerife from "./images/maria-lupan-OkuM6V9m9l0-unsplash.jpg"
 import tulum from "./images/spencer-watson-ioy3bN5Irew-unsplash.jpg"
@@ -8,8 +7,6 @@ import mauritius from "./images/olivier-graziano-kF6avtaXSI0-unsplash.jpg"
 import str from "./images/renan-brun-UqclCoClw-k-unsplash.jpg"
 import boston from "./images/anastasiya-starz-aMzgnHetMRQ-unsplash.jpg"
 import paris from "./images/anthony-delanoix-Q0-fOL2nqZc-unsplash.jpg"
-
-
 
 
 export default [
@@ -53,7 +50,7 @@ export default [
         id: 4,
         title: "Mexico City",
         location: "Mexico",
-        googleMapsUrl: "https://bit.ly/3nS7u9Q",
+        googleMapsUrl: "https://bit.ly/3cI2FOm",
         startDate: "03 Nov, 2021",
         endDate: "10 Mar, 2022",
         description: "Mexico City is the capital city of Mexico and one of the most important political, cultural, educational and financial centres in North America. Mexico City is the country's largest city as well as its most important political, cultural, educational and financial center.",
@@ -65,7 +62,7 @@ export default [
         id: 5,
         title: "Mauritius",
         location: "Eastern Africa",
-        googleMapsUrl: "https://bit.ly/3nS7u9Q",
+        googleMapsUrl: "https://bit.ly/3D8R7P5",
         startDate: "20 Feb, 2017",
         endDate: "11 Mar, 2018",
         description: "Mauritius is an island nation off the southeast coast of the African continent in the southwest Indian Ocean. It is located east of Madagascar. The main island is of volcanic origin and is almost entirely surrounded by a coral reef that poses maritime hazards.",
@@ -77,7 +74,7 @@ export default [
         id: 6,
         title: "Saint-Tropez",
         location: "France",
-        googleMapsUrl: "https://bit.ly/3nS7u9Q",
+        googleMapsUrl: "https://bit.ly/3cI2pyS",
         startDate: "14 Jun, 2021",
         endDate: "20 Jun, 2021",
         description: "The village of Saint-Tropez brims with old-world ambience, seen in its picturesque pastel-colored houses, narrow cobblestone streets, and shady squares. The seaside scenery adds to the allure, with its mesmerizing deep-blue waters and Mediterranean countryside.",
@@ -90,7 +87,7 @@ export default [
         id: 7,
         title: "Boston",
         location: "USA",
-        googleMapsUrl: "https://bit.ly/3nS7u9Q",
+        googleMapsUrl: "https://bit.ly/3AIwbLN",
         startDate: "10 Mar, 2017",
         endDate: "20 Mar, 2017",
         description: "Boston is one of the oldest cities in the United States. It is the capital and largest city in the state of Massachusetts and the largest city in New England. Boston is considered the economic and cultural center of the region.",
