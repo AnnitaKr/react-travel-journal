@@ -5,7 +5,7 @@ export default function Card(props) {
 
 
     return (
-       
+    
         <section className="card-container">
             <img className="main--image" src={props.imageUrl} alt="travel photo" />
             <h1 className="main--heading">{props.title}</h1>
