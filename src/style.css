@@ -204,8 +204,9 @@ a:hover {
 .story-paragraph {
   line-height: 1.8;
   letter-spacing: .05rem;
-  max-width: 500px;
- 
+  max-width: 40em;
+  max-height: 25em;
+  overflow: scroll;
 }
 
 .my-story > img {
