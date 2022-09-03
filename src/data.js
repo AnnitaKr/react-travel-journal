@@ -9,6 +9,8 @@ import boston from "./images/anastasiya-starz-aMzgnHetMRQ-unsplash.jpg"
 import paris from "./images/anthony-delanoix-Q0-fOL2nqZc-unsplash.jpg"
 
 
+
+
 export default [
     {
         id: 1,
@@ -19,7 +21,7 @@ export default [
         endDate: "19 Jan 2016",
         description: "Sydney, city, capital of the state of New South Wales, Australia. Located on Australia’s southeastern coast, Sydney is the country’s largest city and, with its magnificent harbour and strategic position, is one of the most important ports in the South Pacific.",
         imageUrl: sydney,
-        readMoreUrl: "#"
+        readMoreUrl: "sydney"
     },
 
      {
@@ -31,7 +33,7 @@ export default [
         endDate: "1 Aug, 2021",
         description: "Tenerife is the largest of the Canary Islands. It is dominated by the 3718 meters high volcano Mount Teide with its mighty crater. The Teide is not only the highest mountain of all Spain, but also the mountain with the highest elevation in all the Atlantic Ocean.",
         imageUrl: tenerife,
-        readMoreUrl: "#"
+        readMoreUrl: "tenerife"
     },
 
      {
@@ -43,7 +45,7 @@ export default [
         endDate: "04 Mar, 2022",
         description: "This coastal town on the Yucatán Peninsula has perfectly preserved Mayan ruins, exotic wildlife encounters, jungle thrills, top-notch shopping, wellness facilities and a food scene worth the trip alone.",
         imageUrl: tulum,
-        readMoreUrl: "#"
+        readMoreUrl: "tulum"
     },
 
     {
@@ -55,7 +57,7 @@ export default [
         endDate: "10 Mar, 2022",
         description: "Mexico City is the capital city of Mexico and one of the most important political, cultural, educational and financial centres in North America. Mexico City is the country's largest city as well as its most important political, cultural, educational and financial center.",
         imageUrl: cdmx,
-        readMoreUrl: "#"
+        readMoreUrl: "mexico"
     },
 
     {
@@ -67,7 +69,7 @@ export default [
         endDate: "11 Mar, 2018",
         description: "Mauritius is an island nation off the southeast coast of the African continent in the southwest Indian Ocean. It is located east of Madagascar. The main island is of volcanic origin and is almost entirely surrounded by a coral reef that poses maritime hazards.",
         imageUrl: mauritius,
-        readMoreUrl: "#"
+        readMoreUrl: "mauritius"
     },
 
     {
@@ -79,7 +81,7 @@ export default [
         endDate: "20 Jun, 2021",
         description: "The village of Saint-Tropez brims with old-world ambience, seen in its picturesque pastel-colored houses, narrow cobblestone streets, and shady squares. The seaside scenery adds to the allure, with its mesmerizing deep-blue waters and Mediterranean countryside.",
         imageUrl: str,
-        readMoreUrl: "#"
+        readMoreUrl: "st-tropez"
      
     },
 
@@ -92,7 +94,7 @@ export default [
         endDate: "20 Mar, 2017",
         description: "Boston is one of the oldest cities in the United States. It is the capital and largest city in the state of Massachusetts and the largest city in New England. Boston is considered the economic and cultural center of the region.",
         imageUrl: boston,
-        readMoreUrl: "#"
+        readMoreUrl: "boston",
     },
 
     {
@@ -104,6 +106,6 @@ export default [
         endDate: "20 Sep, 2016",
         description: "Paris is one of the most beautiful cities in the world. It is known worldwide for the Louvre Museum, Notre-Dame cathedral, and the Eiffel tower. It has a reputation of being a romantic and cultural city. The city is also known for its high-quality gastronomy and the terraces of its cafés.",
         imageUrl: paris,
-        readMoreUrl: "#"
+        readMoreUrl: "paris"
     }
 ]

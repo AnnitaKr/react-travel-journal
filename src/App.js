@@ -1,9 +1,9 @@
 import React from "react"
 import Card from "./Card.js"
 import data from "./data.js"
-import Navbar from "./Navbar.js"
-import Footer from "./Footer"
 import LandingPage from "./LandingPage"
+import {Link} from "react-router-dom"
+
 
 
 export default function App() {
@@ -24,15 +24,16 @@ export default function App() {
         
     })
   return ( 
+
       <div className="container">
-        <Navbar />
+
+      
         <LandingPage />
         <div className="grid">
-        {cardInfo}
+            {cardInfo}
         </div>
-         
-        <Footer /> 
-      </div>
        
+      </div>
+      
     ) 
 }

@@ -11,22 +11,28 @@ body {
   display: flow-root;
 }
 
+img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
 nav,
 .footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #F5F5F5;
   background-color: #F55A5A;
-  color: #FFFFFF;
   font-weight: 500;
-  font-size: .875rem;
-  height: 4em;
-  box-shadow: .25em .25em .5em black;
+  font-size: 1rem;
+  height: 8vh;
 }
 
 nav {
   margin-top: -1.25em;
 }
+
+
 
 .footer {
   justify-content: space-around;
@@ -85,13 +91,6 @@ height: 10.813em;
 
 }
 
-.main--heading {
-  grid-area: title;
-  font-weight: 700;
-  font-size: 25px;
-  margin-bottom: 12px;
-}
-
 .location {
   grid-area: location;
   display: flex;
@@ -117,6 +116,7 @@ a:hover {
   color:#F55A5A;
   border-bottom: #F55A5A;
 }
+
 
 
 .main--date {
@@ -145,11 +145,11 @@ a:hover {
 .containerLanding {
   margin-bottom: 2.5em;
   height: 100vh;
-  background-color: #918E9B;
+  color:#F5F5F5;
+  background-color: #E1F8F3;
   background-image: url("./images/guillaume-galtier-3YrppYQPoCI-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  color:#FFFFFF;
   text-shadow: .06em .06em .6em grey;
   box-shadow: .125em .125em .5em grey;
 }
@@ -190,4 +190,27 @@ a:hover {
   .containerLanding > h2 {
     left: 35rem;
   }
+}
+
+
+.my-story {
+  height: 85vh;
+  padding: 2em 10em;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.story-paragraph {
+  line-height: 1.8;
+  letter-spacing: .05rem;
+  max-width: 500px;
+ 
+}
+
+.my-story > img {
+  border-radius: 1em;
+  width: 250px;
+  height: 400px;
+  box-shadow: 2px 2px 8px grey;
 }
