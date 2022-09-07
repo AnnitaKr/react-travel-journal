@@ -8,7 +8,7 @@ export default function Card(props) {
     return (
     
         <section className="card-container">
-            <img className="main--image" src={props.imageUrl} alt="travel photo" />
+            <img className="main--image" src={props.imageUrl} alt="travel" />
             <h1 className="main--heading">{props.title}</h1>
             <h3 className="main--date">{props.startDate} - {props.endDate}</h3>
             <div className="location">
