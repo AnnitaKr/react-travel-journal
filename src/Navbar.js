@@ -1,5 +1,6 @@
 import React from "react"
 import {Boop} from "./Boop"
+import { Link } from "react-router-dom"
 
 
 export default function Navbar() {
@@ -9,7 +10,7 @@ export default function Navbar() {
               <Boop rotation="60" timing="200">
               <i className="fa-solid fa-earth-americas"></i>
               </Boop> 
-              <p className="nav--text">my travel journal.</p>
+            <Link to="/"><p className="nav--text">my travel journal.</p></Link>
             
               
         </nav>

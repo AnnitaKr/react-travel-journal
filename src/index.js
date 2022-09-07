@@ -17,26 +17,10 @@ import Paris from "./routes/paris"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-       
-       <>
-     <Navbar />
-<Router>
-        
-        <Routes>
-                <Route exact path="/" element={<App />} />
-                <Route path="/sydney" element={<Sydney />} />
-                <Route path="/tenerife" element={<Tenerife />} />
-                <Route path="/tulum" element={<Tulum />} />
-                <Route path="/mexico" element={<Mexico />} />
-                <Route path="/mauritius" element={<Mauritius />} />
-                <Route path="/st-tropez" element={<StTropez />} />
-                <Route path="/boston" element={<Boston />} />
-                <Route path="/paris" element={<Paris />} />
-        </Routes>
-         
-</Router>
-<Footer />
-</>
+        <Router>
+                <App />
+        </Router>
+      
 );
 
 

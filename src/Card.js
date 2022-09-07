@@ -1,5 +1,5 @@
 import React from "react"
-
+import { Link } from "react-router-dom"
 
 
 export default function Card(props) {
@@ -16,7 +16,7 @@ export default function Card(props) {
                 <p className="main--location">{props.location}</p>
                 <a href={props.googleMapsUrl} className="main--google-link">View on Google Maps</a>
             </div>
-            <p className="main--description">{props.description}<a href={props.readMoreUrl}>Read my story</a></p>
+            <p className="main--description">{props.description}<Link to={props.readMoreUrl}>Read my story</Link></p>
         </section>
         
     )

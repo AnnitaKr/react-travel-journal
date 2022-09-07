@@ -33,7 +33,6 @@ nav {
 }
 
 
-
 .footer {
   justify-content: space-around;
 }
@@ -115,6 +114,16 @@ a {
 a:hover {
   color:#F55A5A;
   border-bottom: #F55A5A;
+}
+
+nav > a {
+  color: white;
+  border: none;
+  margin: 0;
+}
+
+nav > a:hover {
+  color: white;
 }
 
 
